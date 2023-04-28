@@ -1,24 +1,27 @@
 body {
-    background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(35,35,52,1) 35%, rgba(0,212,255,1) 100%);
-    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.738);
+
+  background-image: url(/images/stars.jpg);
+  background-size: cover;
+  background-position: center;
+    /*background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(35,35,52,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.738);*/
   }
 
-  .gallery{
+  .sticky-sm-top {
+    background-color: black;
+  }
+
+  .image-gallery{
     display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-	position: relative;
-    
+    flex-direction: row;
   }
 
-  .col {
-    width: 400px; /* Set the width of the individual cards */
-    height: 500px; /* Set the height of the individual cards */
-    margin: 50px;
+  .pong {
+    max-width: 25%;
+    height: auto;
+    padding: 10px;
   }
 
-
-.col:hover img {
-    opacity: 0.8; /* Set the opacity of the image to create a hover effect */
+  img:hover {
+    transform: scale(1.1);
   }
