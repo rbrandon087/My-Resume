@@ -8,12 +8,16 @@ body {
   }
 
   .sticky-sm-top {
+    height: 80px;
     background-color: black;
   }
 
   .image-gallery{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
   }
 
   .pong {
