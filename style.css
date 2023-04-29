@@ -65,8 +65,9 @@ body {
   h1 {
     color: white;
     position: absolute;
+    font-size: 60px;
     top: 50%;
-    left: 35%;
+    left: 30%;
   }
   
 /*image gallery*/

@@ -10,6 +10,12 @@ function typeWriter(text, i, callback) {
   }
 }
 
-typeWriter(nameText, 0, () => {
-  // Animation complete
-});
+function animateName() {
+  nameEl.innerHTML = ''; // Clear the name element before starting the animation
+  typeWriter(nameText, 0, () => {
+    // Animation complete
+  });
+}
+
+// Call the animateName function every 5000ms (5 seconds)
+setInterval(animateName, 5000);
