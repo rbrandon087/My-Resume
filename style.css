@@ -43,7 +43,7 @@ body {
 
 
 /*H1 tag*/
-  h1 {
+ /* h1 {
     animation: bounce 1s infinite;
     position: absolute;
     color: white;
@@ -60,6 +60,13 @@ body {
     50% {
       transform: translateY(-10px);
     }
+  }
+  */
+  h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 35%;
   }
   
 /*image gallery*/
