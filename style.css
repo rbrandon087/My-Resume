@@ -11,6 +11,25 @@ body {
     height: 80px;
     background-color: black;
   }
+/*H1 tag*/
+  h1 {
+    animation: bounce 1s infinite;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
 
   .image-gallery{
     display: flex;
