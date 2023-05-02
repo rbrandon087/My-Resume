@@ -70,10 +70,12 @@ body {
     left: 30%;
   }
   
+
+
 /*image gallery*/
   .image-gallery{
     display: flex;
-    flex-direction: row;
+    flex-direction: col;
     justify-content: center;
     align-items: center;
     margin-top: 100%;
@@ -86,5 +88,21 @@ body {
   }
 
   img:hover {
-    transform: scale(1.1);
+    transform: scale(2.1);
+  }
+
+  /*Lan gallery*/
+  .language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60%;
+  }
+
+  .lan{
+    max-width: 100%;
+  height: auto;
+  transform: scale(2.5); 
+  padding: 50px;
   }
