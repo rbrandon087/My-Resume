@@ -1,6 +1,7 @@
 const nameEl = document.querySelector('#name');
 const nameText = "Hi, my name is Brandon";
 
+
 function typeWriter(text, i, callback) {
   if (i < text.length) {
     nameEl.innerHTML += text.charAt(i);
@@ -19,3 +20,4 @@ function animateName() {
 
 // Call the animateName function every 5000ms (5 seconds)
 setInterval(animateName, 5000);
+
