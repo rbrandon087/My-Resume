@@ -1,14 +1,15 @@
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 400px;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
 
-  body {
-    font-family: 'Castoro Titling', cursive;
-    padding-top: 100px;
-    }
-  
-
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
 
 
 .sticky-sm-top {
@@ -48,6 +49,11 @@ html {
 
 
 
+  h1 {
+    margin-bottom: 2rem;
+  }
+ 
+/*email form*/
   .container {
     display: flex;
     align-items: center;
@@ -58,26 +64,23 @@ html {
   form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
-    max-width: 400px;
-    width: 100%;
+    width: 24rem;
+    gap: 1rem;
   }
 
-  input {
-    padding: 5px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-  }
+ input,
+ select,
+ textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid black;
+ }
+
   
   button {
-    padding: 5px 10px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
+   width: 8rem;
+   padding: 1.4rem;
+   cursor: pointer;
+   background: #673de6;
+   color: white;
   }
