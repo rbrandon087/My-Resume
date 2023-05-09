@@ -66,19 +66,19 @@ body {
 
 
 /*image gallery*/
-  .image-gallery{
-    display: flex;
-    flex-direction: col;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70%;
-  }
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45%;
+  padding: 50px;
+  padding-left: 10%;
+}
 
-  .pong {
-    max-width: 25%;
-    height: auto;
-    padding: 10px;
-  }
+img {
+  max-width: 75%;
+  height: auto;
+}
+
 
   img:hover {
     transform: scale(1.1);
