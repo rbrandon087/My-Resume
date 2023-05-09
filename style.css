@@ -5,7 +5,7 @@ html {
 
 body {
 
-  background-image: url(/images/green.jpg);
+  background-image: url(./images/green.jpg);
   background-size: cover;
   background-position: center;
   font-family: 'Castoro Titling', cursive;
